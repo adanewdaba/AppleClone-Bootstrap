@@ -329,12 +329,25 @@ img {
 .upper-text-container a {
 	color: #515154;
 }
+
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 500px){
+.footer-links-terms {
+	font-size: 0.71em;
+		}
+	}
+
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px){
 	.footer-links-wrapper ul {
 		display: none;
 	}
+
+
+
 	.footer-links-wrapper h3.expanded:after {
 		font-family: "FontAwesome";
 		content: "\f068";
